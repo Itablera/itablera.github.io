@@ -32,7 +32,10 @@ Efter ett par veckor dök en liknande bil upp hos en bilhandlare. Det visade sig
 
 Nu började byggandet av utekontor V2!
 
-# Specifikationer
+# Bygget
+
+## Vision
+Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, medans insidan ska kännas som ett litet hus (inga klassiska husbilsinredningar eller husbils-knappar och reglage).
 
 ## Bodelen
 - Tak, väggar och golv är samtliga isolerade från fabrik i form av 40mm sandwichpaneler
@@ -61,7 +64,6 @@ Nu började byggandet av utekontor V2!
   - Odroid C4 med Home Assistant och Zigbee (ConBee II)
   - Zigbee 4 kanals relä för att styra 12v utrustning (t.ex. inverter)
   - Termostat för golvvärme
-- Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, medans insidan ska kännas som ett litet hus (inga klassiska husbilsinredningar eller husbils-knappar och reglage)
 - Soffan är en bäddsoffa från Ikea som kan dras ut till en 160cm bred säng
 - På väggen hänger en 43" Samsung Smart Monitor M7. Väggfästet är placerat så att skärmen kan vinklas åt alla håll. Även vikas ut utanför lastbilen (om man skulle vilja sitta ute och kolla på något)
 - Hela bakre väggen kan öppnas. I öppet läge används ett tredelat skjutdörrsparti som väderskydd
