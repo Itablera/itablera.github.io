@@ -7,11 +7,16 @@ language: sv
 ---
 
 Under Corona blev jag och alla mina arbetskamrater hemskickade för att på heltid jobba hemifrån. Det tog bara några veckor innan jag började känna mig instängd på mitt lilla kontor och började leta efter en mer stimulerande arbetsmiljö.
-Tillslut blev jag att packa lite campingutrustning och tog bilen till en grillplats vid en sjö. Där satt jag på en ranglig campingstol med laptopen i knäet. Utekontor V1 var fött
-2-3 dagar i veckan i ur och skur satt jag så här. Ibland hade jag sällskap av en likasinnad kollega. Vi gjorde kolbullar och kokkaffe, badade på lunchen och hade allmänt gött. Det gick så långt att lokaltidningen fick nys om det hela och ville göra ett reportage.
+
+Tillslut blev jag att packa lite campingutrustning och tog bilen till en grillplats vid en sjö. Där satt jag på en ranglig campingstol med laptopen i knäet. Utekontor V1 var fött.
+2-3 dagar i veckan i ur och skur satt jag så här. Ibland hade jag sällskap av en likasinnad kollega. Vi gjorde kolbullar och kokkaffe, badade på lunchen och hade allmänt gött. Det gick så långt att tidningen fick nys om det hela och ville göra ett reportage.
+
 Efter ca 6 månader av detta började ryggen säga ifrån, vintern närmade sig och kylan blev ett problem trots både fårskinn och handskar. Något behöver göras.
+
 Länge har jag följt diverse van-builds och varit sugen på att bygga något själv. Nu fick jag chansen och jakten på fordon började. Detta var som sagt under Corona och priserna på husbilar och vans hade skjutit i höjden till den grad att man fick betala premium för en rostig Sprinter från 2005.	    
+
 Men jag var inte på jakt efter dessa "vanliga" plåtskåps vans. Nä, jag ville ha en lätt lastbil med lastbilsskåp. Anledningarna var många:  
+
 - Priset (inte lika upphypat som plåtisar)
 - Större volym
 - Högre i tak
