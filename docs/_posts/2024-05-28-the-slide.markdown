@@ -3,7 +3,6 @@ layout: presentation
 title:  "The Slide"
 date:   2024-05-28 15:11:27 +0200
 categories: vanlife
-background: /media/IMG_4457.png
 language: sv
 ---
 # Berättelsen
@@ -16,7 +15,7 @@ Efter ca 6 månader av detta började ryggen säga ifrån, vintern närmade sig 
 
 Länge har jag följt diverse van-builds och varit sugen på att bygga något själv. Nu fick jag chansen och jakten på fordon började. Detta var som sagt under Corona och priserna på husbilar och vans hade skjutit i höjden till den grad att man fick betala premium för en rostig Sprinter från 2005.
 
-Men jag var inte på jakt efter dessa "vanliga" plåtskåps vans. Nä, jag ville ha en lätt lastbil med lastbilsskåp. Anledningarna var många:  
+Men jag var inte på jakt efter dessa "vanliga" plåtskåps vans. Nä, jag ville ha en lätt lastbil med lastbilsskåp. Anledningarna var många:
 - Större volym
 - Högre i tak
 - Effektiv isolering från start
@@ -24,7 +23,7 @@ Men jag var inte på jakt efter dessa "vanliga" plåtskåps vans. Nä, jag ville
 - Skåpet kan flyttas över till ny bil om så önskas/behövs
 - Priset (inte lika upphypat som plåtisar)
 - Hela momsen kan dras av iom. luftspalt mellan förarhytt och skåp
-- ... och framförallt... RÄTA VINKLAR. Vi har renoverat vårt gamla hus tillräckligt länge för att aldrig frivilligt ge sig i kast med kurvade väggar så som det är i ett plåtskåp 
+- ... och framförallt... RÄTA VINKLAR. Vi har renoverat vårt gamla hus tillräckligt länge för att aldrig frivilligt ge sig i kast med kurvade väggar så som det är i ett plåtskåp
 
 ---
 # Bygget
