@@ -1,6 +1,6 @@
 ---
-layout: post
-title:  "The Journey"
+layout: presentation
+title:  "The Slide"
 date:   2024-05-28 15:11:27 +0200
 categories: vanlife
 language: sv
@@ -13,10 +13,9 @@ Tillslut blev jag att packa lite campingutrustning och tog bilen till en grillpl
 
 Efter ca 6 månader av detta började ryggen säga ifrån, vintern närmade sig och kylan blev ett problem trots både fårskinn och handskar. Något behöver göras.
 
-Länge har jag följt diverse van-builds och varit sugen på att bygga något själv. Nu fick jag chansen och jakten på fordon började. Detta var som sagt under Corona och priserna på husbilar och vans hade skjutit i höjden till den grad att man fick betala premium för en rostig Sprinter från 2005.	    
+Länge har jag följt diverse van-builds och varit sugen på att bygga något själv. Nu fick jag chansen och jakten på fordon började. Detta var som sagt under Corona och priserna på husbilar och vans hade skjutit i höjden till den grad att man fick betala premium för en rostig Sprinter från 2005.
 
-Men jag var inte på jakt efter dessa "vanliga" plåtskåps vans. Nä, jag ville ha en lätt lastbil med lastbilsskåp. Anledningarna var många:  
-
+Men jag var inte på jakt efter dessa "vanliga" plåtskåps vans. Nä, jag ville ha en lätt lastbil med lastbilsskåp. Anledningarna var många:
 - Större volym
 - Högre i tak
 - Effektiv isolering från start
@@ -26,13 +25,9 @@ Men jag var inte på jakt efter dessa "vanliga" plåtskåps vans. Nä, jag ville
 - Hela momsen kan dras av iom. luftspalt mellan förarhytt och skåp
 - ... och framförallt... RÄTA VINKLAR. Vi har renoverat vårt gamla hus tillräckligt länge för att aldrig frivilligt ge sig i kast med kurvade väggar så som det är i ett plåtskåp
 
-Efter en del letande hittade jag tillslut den perfekta bilen på KVD. En Volkswagen Crafter 2015 med bakgavellyft, som dessutom hade dieselvärmare i skåpet, samt en inverter på 3000W! Det blev budgivning, men tyvärr nådde jag min smärtgränns och tvingades se bilen gå till någon annan. Slagen och nedstämd fortsatte jag mitt letande.
-
-Efter ett par veckor dök en liknande bil upp hos en bilhandlare. Det visade sig ganska snart att det var samma bil... Enda skilnaden var att den nu var 20k dyrare än vinnande bud hos KVD... Självklart slog jag till 😅
-
-Nu började byggandet av utekontor V2!
-
+---
 # Bygget
+<!-- .slide: data-background-image="/media/IMG_4445.png" -->
 
 ## Vision
 Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, medans insidan ska kännas som ett litet hus (inga klassiska husbilsinredningar eller husbils-knappar och reglage).
@@ -87,5 +82,6 @@ Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, 
   - Kaross i gott skick relativt ålder. Mindre mängd ytlig rost finns under dörrarna
   - Bilen är inte momssmittad, dvs. ett företag kan köpa den och dra av hela momsen (då det är en lastbil med luftspalt)
 
+---
 ## Bilder
 ![alt text](/media/IMG_4445.png) ![alt text](/media/IMG_4449.png) ![alt text](/media/IMG_4453.png) ![alt text](/media/IMG_4457.png) ![alt text](/media/IMG_4458.png) ![alt text](/media/IMG_4459.png) ![alt text](/media/IMG_4461.png) ![alt text](/media/IMG_4477.png) ![alt text](/media/IMG_9498.png) ![alt text](/media/IMG_9503.png) ![alt text](/media/IMG_9510.png) ![alt text](/media/IMG_9514.png) ![alt text](/media/IMG_9533.png) ![alt text](/media/IMG_9540.png) ![alt text](/media/IMG_9549.png) ![alt text](/media/IMG_9554.png)
