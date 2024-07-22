@@ -1,0 +1,25 @@
+---
+title:  The slide
+date:   2024-07-18 15:11:27 +0200
+categories: vanlife
+language: sv
+author: Per Linde
+description: Some slides for a git and GitHub workshop using reveal.js
+categories: education
+comments: true
+tags:
+  - education
+  - workshop
+  - slides
+---
+
+  # First
+  slide
+  ---
+  ## A slide with a background image
+  ---
+  ## Third
+  - slide with
+  - some
+  - bullet points
+  ---
