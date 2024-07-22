@@ -32,6 +32,7 @@ Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, 
   - Offgridtec omkopplingsstation 16A, kopplar automatiskt om mellan landström och inverter
   - Ett antal DC-DC omvandlare för att driva 5, 12 och 24v utrustning
   - Termostat för golvvärme
+  - Exteriör antenn för 5G och Wifi
 - Soffan är en bäddsoffa från Ikea som kan dras ut till en 160cm bred säng
 - På väggen hänger en 43" Samsung Smart Monitor M7. Väggfästet är placerat så att skärmen kan vinklas åt alla håll. Även vikas ut utanför lastbilen (om man skulle vilja sitta ute och kolla på något)
 - Hela bakre väggen kan öppnas. I öppet läge används ett tredelat skjutdörrsparti som väderskydd
