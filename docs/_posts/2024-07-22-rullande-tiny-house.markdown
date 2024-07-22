@@ -1,13 +1,10 @@
 ---
 layout: post
 title:  "Rullande tiny house"
-date:   2024-07-22 15:11:27 +0200
+date:   2024-07-22 10:11:27 +0200
 categories: vanlife
 language: sv
 ---
-
-# Bygget
-
 ## Vision
 Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, medans insidan ska kännas som ett litet hus (inga klassiska husbilsinredningar eller husbils-knappar och reglage).
 
