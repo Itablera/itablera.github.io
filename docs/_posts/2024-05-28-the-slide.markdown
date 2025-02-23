@@ -33,10 +33,11 @@ Men jag var inte på jakt efter dessa "vanliga" plåtskåps vans. Nä, jag ville
 Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, medans insidan ska kännas som ett litet hus (inga klassiska husbilsinredningar eller husbils-knappar och reglage).
 
 ## Bodelen
+<!-- .slide: scrollable="true" -->
 - Tak, väggar och golv är samtliga isolerade från fabrik i form av 40mm sandwichpaneler
 - Generellt har jag undvikit att använda träbaserade material i utsatta områden. Detta för att minska risken för mögel
 - Underliggande golv är en oljehärdad plywoodskiva. Ovanpå denna ligger 3mm XPS skivor, aluminiumfolie för att reflektera värme, 24v golvvärme och slutligen vinylgolv
-- Väggarna har en luftspalt och är klädda med MDF panel
+- Väggarna har en luftspalt och är klädda med MDF panel <!-- .element: smaller="true" -->
 - Taket är klätt med XPS skivor i träimitation
 - För att minimera antal hål i det inre tätskicktet så är det mesta limmat med Tec7. Vilket är både starkt, väderbeständigt och tätt.
 - Köksdelen är byggd med Ikeas Metod system. Samtliga lådor är utrustade med soft-close. Bänkskivan är en laminatskiva.
@@ -65,7 +66,7 @@ Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, 
 - Bakgavellyften är isolerad med 50mm XPS som är klätt med konstgräs. Detta ger en liten altan när bakgaveln är nedfälld
 - Övrigt
   - Samsung sound-bar med subwoofer
-  - Eberspächer 4kW dieselvärmare är monterad under lastbilsskåpet, men detta är ett pågående projekt. Kan startas och fungerar fin fint
+  - Eberspächer 4kW dieselvärmare är monterad under lastbilsskåpet, men detta är ett pågående projekt. Kan startas och fungerar fin fint <!-- .section  -->
 
 ## Bilen
   - Volkswagen Crafter 2015

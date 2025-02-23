@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="/assets/reveal.js/dist/reset.css">
 		<link rel="stylesheet" href="/assets/reveal.js/dist/reveal.css">
 		<link rel="stylesheet" href="/assets/reveal.js/dist/theme/moon.css">
+		<link rel="stylesheet" href="/assets/css/reveal-scrollable.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="/assets/reveal.js/plugin/highlight/monokai.css">
@@ -46,6 +47,26 @@
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+			function resetSlideScrolling(slide) {
+				slide.classList.remove('scrollable-slide');
+			}
+
+			function handleSlideScrolling(slide) {
+				if (slide.scrollHeight >= 800) {
+					slide.classList.add('scrollable-slide');
+				}
+			}
+
+			Reveal.addEventListener('ready', function (event) {
+				handleSlideScrolling(event.currentSlide);
+			});
+
+			Reveal.addEventListener('slidechanged', function (event) {
+				if (event.previousSlide) {
+					resetSlideScrolling(event.previousSlide);
+				}
+				handleSlideScrolling(event.currentSlide);
 			});
 		</script>
 	</body>
