@@ -8,6 +8,8 @@ language: sv
 ## Vision
 Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, medans insidan ska kännas som ett litet hus (inga klassiska husbilsinredningar eller husbils-knappar och reglage).
 
+{% include image-gallery.html folder="/media-jpg" %}
+
 ## Bodelen
 - Tak, väggar och golv är samtliga isolerade från fabrik i form av 40mm sandwichpaneler
 - Generellt har vi undvikit att använda träbaserade material i utsatta områden. Detta för att minska risken för mögel
@@ -50,14 +52,15 @@ Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, 
   - 3 st säten
   - Fungerande AC
   - Motorvärmare och kupévärmare
+  - Dubbla batterier. Båda bytta, 2023 och 2025
   - Förstärkt fjädring bak 2023
   - Bromsrör bytt 2023
   - Värmepaket bytt 2022
   - Kaross i gott skick relativt ålder. Mindre mängd ytlig rost finns under dörrarna
   - Bilen är inte momssmittad, dvs. ett företag kan köpa den och dra av hela momsen (då det är en lastbil med luftspalt)
 
-## Bilder
-![alt text](/media/IMG_4445.png) ![alt text](/media/IMG_4449.png) ![alt text](/media/IMG_4453.png) ![alt text](/media/IMG_4457.png) ![alt text](/media/IMG_4458.png) ![alt text](/media/IMG_4459.png) ![alt text](/media/IMG_4461.png) ![alt text](/media/IMG_4477.png) ![alt text](/media/IMG_9498.png) ![alt text](/media/IMG_9503.png) ![alt text](/media/IMG_9510.png) ![alt text](/media/IMG_9514.png) ![alt text](/media/IMG_9533.png) ![alt text](/media/IMG_9540.png) ![alt text](/media/IMG_9549.png) ![alt text](/media/IMG_9554.png)
+<!-- ## Bilder
+![alt text](/media/IMG_4445.png) ![alt text](/media/IMG_4449.png) ![alt text](/media/IMG_4453.png) ![alt text](/media/IMG_4457.png) ![alt text](/media/IMG_4458.png) ![alt text](/media/IMG_4459.png) ![alt text](/media/IMG_4461.png) ![alt text](/media/IMG_4477.png) ![alt text](/media/IMG_9498.png) ![alt text](/media/IMG_9503.png) ![alt text](/media/IMG_9510.png) ![alt text](/media/IMG_9514.png) ![alt text](/media/IMG_9533.png) ![alt text](/media/IMG_9540.png) ![alt text](/media/IMG_9549.png) ![alt text](/media/IMG_9554.png) -->
 
 # Bakgrund
 Under Corona blev jag och alla mina arbetskamrater hemskickade för att på heltid jobba hemifrån. Det tog bara några veckor innan jag började känna mig instängd på mitt lilla kontor och började leta efter en mer stimulerande arbetsmiljö.
