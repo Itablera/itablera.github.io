@@ -9,8 +9,8 @@
     {% endfor %}
   </div>
   
-  <!-- Lightbox Modal -->
-  <div id="lightbox" class="lightbox" onclick="backgroundClose(event)">
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox" onclick="backgroundClose(event)" style="display: none;">
     <span class="close" onclick="closeLightbox()">&times;</span>
     <img id="lightbox-img" src="" alt="">
     <button class="prev" onclick="changeImage(-1)">&#10094;</button>
@@ -37,7 +37,7 @@
     transform: scale(1.05);
   }
   .lightbox {
-    display: none;
+    display: none; /* ✅ Ensures it is hidden on page load */
     position: fixed;
     top: 0;
     left: 0;
@@ -47,11 +47,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
   }
   .lightbox img {
     max-width: 90%;
     max-height: 80%;
     margin: auto;
+    user-select: none;
   }
   .close {
     position: absolute;
@@ -81,30 +83,56 @@
   <script>
     let images = [];
     let currentIndex = 0;
+    let touchStartX = 0;
+    let touchEndX = 0;
   
     document.addEventListener("DOMContentLoaded", function () {
       images = Array.from(document.querySelectorAll('.gallery-item img')).map(img => img.src);
     });
-
-    function backgroundClose(event) {
-        if (event.target.id === "lightbox") { 
-            closeLightbox(); 
-        }
-    }
   
     function openLightbox(src, index) {
       currentIndex = index;
       document.getElementById("lightbox-img").src = src;
-      document.getElementById("lightbox").style.display = "flex";
+      document.getElementById("lightbox").style.display = "flex"; // ✅ Shows lightbox when opened
+  
+      // Add touch event listeners for swipe gestures
+      const lightboxImg = document.getElementById("lightbox-img");
+      lightboxImg.addEventListener("touchstart", handleTouchStart, false);
+      lightboxImg.addEventListener("touchmove", handleTouchMove, false);
+      lightboxImg.addEventListener("touchend", handleTouchEnd, false);
     }
   
     function closeLightbox() {
-      document.getElementById("lightbox").style.display = "none";
+      document.getElementById("lightbox").style.display = "none"; // ✅ Hides lightbox properly
     }
   
     function changeImage(step) {
       currentIndex = (currentIndex + step + images.length) % images.length;
       document.getElementById("lightbox-img").src = images[currentIndex];
     }
-    
+  
+    function backgroundClose(event) {
+      if (event.target.id === "lightbox") {
+        closeLightbox();
+      }
+    }
+  
+    // Handle swipe gestures
+    function handleTouchStart(event) {
+      touchStartX = event.touches[0].clientX;
+    }
+  
+    function handleTouchMove(event) {
+      touchEndX = event.touches[0].clientX;
+    }
+  
+    function handleTouchEnd() {
+      const swipeThreshold = 50; // Minimum swipe distance in pixels
+  
+      if (touchStartX - touchEndX > swipeThreshold) {
+        changeImage(1); // Swipe left → next image
+      } else if (touchEndX - touchStartX > swipeThreshold) {
+        changeImage(-1); // Swipe right → previous image
+      }
+    }
   </script>
