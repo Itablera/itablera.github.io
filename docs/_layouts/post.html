@@ -25,6 +25,10 @@ layout: base
         {% endfor %}
       {%- endif -%}</p>
   </header>
+  
+  {%- if page.show-toc == true -%}
+    {% include toc.html %}
+  {%- endif -%}
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}

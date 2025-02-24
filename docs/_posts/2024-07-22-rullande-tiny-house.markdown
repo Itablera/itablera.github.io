@@ -4,6 +4,7 @@ title:  "Rullande tiny house"
 date:   2024-07-22 10:11:27 +0200
 categories: vanlife
 language: sv
+show-toc: false
 ---
 ## Vision
 Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, medans insidan ska kännas som ett litet hus (inga klassiska husbilsinredningar eller husbils-knappar och reglage).
@@ -59,7 +60,7 @@ Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, 
   - Kaross i gott skick relativt ålder. Mindre mängd ytlig rost finns under dörrarna
   - Bilen är inte momssmittad, dvs. ett företag kan köpa den och dra av hela momsen (då det är en lastbil med luftspalt)
 
-# Bakgrund
+## Bakgrund
 Under Corona blev jag och alla mina arbetskamrater hemskickade för att på heltid jobba hemifrån. Det tog bara några veckor innan jag började känna mig instängd på mitt lilla kontor och började leta efter en mer stimulerande arbetsmiljö.
 
 Tillslut blev jag att packa lite campingutrustning och tog bilen till en grillplats vid en sjö. Där satt jag på en ranglig campingstol med laptopen i knäet.
