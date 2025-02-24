@@ -4,6 +4,7 @@ title:  "The Slide"
 date:   2024-05-28 15:11:27 +0200
 categories: vanlife
 language: sv
+published: false
 ---
 # Berättelsen
 Under Corona blev jag och alla mina arbetskamrater hemskickade för att på heltid jobba hemifrån. Det tog bara några veckor innan jag började känna mig instängd på mitt lilla kontor och började leta efter en mer stimulerande arbetsmiljö.
