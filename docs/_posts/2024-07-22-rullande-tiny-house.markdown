@@ -8,7 +8,7 @@ language: sv
 ## Vision
 Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, medans insidan ska kännas som ett litet hus (inga klassiska husbilsinredningar eller husbils-knappar och reglage).
 
-{% include image-gallery.html folder="/media-jpg" %}
+{% include gallery.html folder="/media-jpg" %}
 
 ## Bodelen
 - Tak, väggar och golv är samtliga isolerade från fabrik i form av 40mm sandwichpaneler
