@@ -47,7 +47,7 @@ Målet med bygget har varit att utsidan ska se ut som vilken lastbil som helst, 
 ## Bilen
   - Volkswagen Crafter 2015
   - 2.0 TDI 136hk
-  - Ca 27 000 mil
+  - Ca 28 000 mil
   - Android baserad bilstereo i förarhytt. Stödjer CarPlay och Android Auto
   - Farthållare
   - 3 st säten
