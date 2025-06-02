@@ -148,6 +148,58 @@ a:hover {
   background-color: var(--bg-secondary);
 }
 
+/* Additional elements styling for dark mode */
+:root.dark .post-meta {
+  color: var(--text-secondary);
+}
+
+:root.dark .post-title,
+:root.dark .page-title {
+  color: var(--text-primary);
+}
+
+:root.dark .post-content h1,
+:root.dark .post-content h2,
+:root.dark .post-content h3,
+:root.dark .post-content h4,
+:root.dark .post-content h5,
+:root.dark .post-content h6 {
+  color: var(--text-primary);
+}
+
+:root.dark .page-content h1,
+:root.dark .page-content h2,
+:root.dark .page-content h3,
+:root.dark .page-content h4,
+:root.dark .page-content h5,
+:root.dark .page-content h6 {
+  color: var(--text-primary);
+}
+
+:root.dark blockquote {
+  color: var(--text-secondary);
+  border-left-color: var(--border-color);
+}
+
+:root.dark hr {
+  border-color: var(--border-color);
+}
+
+/* Form elements for dark mode */
+:root.dark input,
+:root.dark textarea,
+:root.dark select {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+:root.dark input:focus,
+:root.dark textarea:focus,
+:root.dark select:focus {
+  border-color: var(--link-color);
+}
+
 /* Responsive adjustments */
 @media screen and (max-width: 600px) {
   .dark-mode-toggle {
