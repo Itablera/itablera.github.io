@@ -1,0 +1,241 @@
+/* Dark mode CSS variables and styles */
+:root {
+  /* Light mode (default) colors */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f7f7f7;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --border-color: #e8e8e8;
+  --link-color: #2a7ae4;
+  --link-hover: #1e5db8;
+}
+
+/* Dark mode colors - converted from OKLCH values */
+:root.dark {
+  /* Dark backgrounds: oklch(0.21 0.034 264.665) ≈ #1a1a2e */
+  --bg-primary: #1a1a2e;
+  /* Lighter dark: oklch(0.278 0.033 256.848) ≈ #25253f */
+  --bg-secondary: #25253f;
+  /* Foreground: oklch(0.72 0.11 178) ≈ #94c7d6 */
+  --text-primary: #94c7d6;
+  --text-secondary: #b8d4e0;
+  --border-color: #404060;
+  --link-color: #7bc3d4;
+  --link-hover: #a8d6e2;
+}
+
+/* Apply dark mode when system preference is dark and no manual override */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    --bg-primary: #1a1a2e;
+    --bg-secondary: #25253f;
+    --text-primary: #94c7d6;
+    --text-secondary: #b8d4e0;
+    --border-color: #404060;
+    --link-color: #7bc3d4;
+    --link-hover: #a8d6e2;
+  }
+}
+
+/* Base styles using CSS variables */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.site-header {
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.site-footer {
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+}
+
+.page-content {
+  background-color: var(--bg-primary);
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+/* Navigation */
+.site-nav .page-link {
+  color: var(--text-primary);
+}
+
+.site-nav .page-link:hover {
+  color: var(--link-hover);
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  background: none;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 6px;
+  margin-left: 16px;
+  cursor: pointer;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.dark-mode-toggle:hover {
+  background-color: var(--bg-secondary);
+  border-color: var(--link-color);
+}
+
+.dark-mode-toggle svg {
+  width: 20px;
+  height: 20px;
+  transition: opacity 0.3s ease;
+}
+
+/* Show/hide icons based on mode */
+:root .dark-mode-toggle .sun-icon {
+  opacity: 1;
+}
+
+:root .dark-mode-toggle .moon-icon {
+  opacity: 0;
+  position: absolute;
+}
+
+:root.dark .dark-mode-toggle .sun-icon {
+  opacity: 0;
+  position: absolute;
+}
+
+:root.dark .dark-mode-toggle .moon-icon {
+  opacity: 1;
+  position: relative;
+}
+
+/* Code blocks and syntax highlighting adjustments for dark mode */
+:root.dark .highlight {
+  background-color: var(--bg-secondary);
+}
+
+:root.dark pre,
+:root.dark code {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+/* Table styling for dark mode */
+:root.dark table {
+  background-color: var(--bg-primary);
+}
+
+:root.dark table th,
+:root.dark table td {
+  border-color: var(--border-color);
+}
+
+:root.dark table th {
+  background-color: var(--bg-secondary);
+}
+
+/* Additional elements styling for dark mode */
+:root.dark .post-meta {
+  color: var(--text-secondary);
+}
+
+:root.dark .post-title,
+:root.dark .page-title {
+  color: var(--text-primary);
+}
+
+:root.dark .post-content h1,
+:root.dark .post-content h2,
+:root.dark .post-content h3,
+:root.dark .post-content h4,
+:root.dark .post-content h5,
+:root.dark .post-content h6 {
+  color: var(--text-primary);
+}
+
+:root.dark .page-content h1,
+:root.dark .page-content h2,
+:root.dark .page-content h3,
+:root.dark .page-content h4,
+:root.dark .page-content h5,
+:root.dark .page-content h6 {
+  color: var(--text-primary);
+}
+
+:root.dark blockquote {
+  color: var(--text-secondary);
+  border-left-color: var(--border-color);
+}
+
+:root.dark hr {
+  border-color: var(--border-color);
+}
+
+/* Form elements for dark mode */
+:root.dark input,
+:root.dark textarea,
+:root.dark select {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+:root.dark input:focus,
+:root.dark textarea:focus,
+:root.dark select:focus {
+  border-color: var(--link-color);
+}
+
+/* Table of Contents (TOC) styling for dark mode */
+:root.dark .toc {
+  background-color: var(--bg-secondary);
+  border-left-color: var(--text-secondary);
+}
+
+:root.dark .toc a {
+  color: var(--text-primary);
+}
+
+:root.dark .toc a:hover {
+  color: var(--link-hover);
+}
+
+/* Scrollbar styling for dark mode */
+:root.dark ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,0.1);
+}
+
+:root.dark ::-webkit-scrollbar-thumb {
+  background-color: var(--text-secondary);
+}
+
+:root.dark ::-webkit-scrollbar-corner {
+  background-color: var(--text-secondary);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  .dark-mode-toggle {
+    margin-left: 8px;
+    padding: 4px;
+  }
+  
+  .dark-mode-toggle svg {
+    width: 18px;
+    height: 18px;
+  }
+}
